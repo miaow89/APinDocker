@@ -7,8 +7,11 @@ net.ipv4.ip_forward=1
 
 # execute Command
 > sudo curl -sSL https://get.docker.com | sh
+> 
 > sudo apt-get install libffi-dev libssl-dev -y
+> 
 > sudo apt-get install -y python python-pip
+> 
 > sudo pip install docker-compose
 
 > sudo docker build . --tag autowlan
