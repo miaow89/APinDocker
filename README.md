@@ -4,7 +4,7 @@
 sudo vi /etc/sysctl.conf
 ~~~
 ### add to the end of file
-#####denyinterfaces wlan0
+##### denyinterfaces wlan0
 ~~~
 sudo vi /etc/dhcpcd.conf
 ~~~
