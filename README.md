@@ -20,4 +20,3 @@
 > sudo docker run --name autowlan_open --cap-add=NET_ADMIN --network=host  autowlan
 
 
-
