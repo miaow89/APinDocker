@@ -35,3 +35,21 @@ sudo docker run -d --name autowlan_wep --cap-add=NET_ADMIN --network=host -v $(p
 ~~~
 sudo docker run -d --name autowlan_wpa2 --cap-add=NET_ADMIN --network=host -v $(pwd)/confs/hostapd_confs/wpa2.conf:/etc/hostapd/hostapd.conf autowlan
 ~~~
+
+## Create and run container (stop with Ctrl+C)
+~~~
+docker-compose -f <fichero_yml> up
+~~~
+## Create and run container in the background
+~~~
+docker-compose -f <fichero_yml> up  -d
+~~~
+## Stop a container in the background
+~~~
+docker-compose -f <fichero_yml> down
+~~~
+#### Read logs of a container in the background
+~~~
+docker-compose -f <fichero_yml> logs
+~~~
+
