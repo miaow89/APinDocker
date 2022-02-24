@@ -38,18 +38,18 @@ sudo docker run -d --name autowlan_wpa2 --cap-add=NET_ADMIN --network=host -v $(
 
 ## Create and run container (stop with Ctrl+C)
 ~~~
-docker-compose -f <fichero_yml> up
+docker-compose -f <yml file name> up
 ~~~
 ## Create and run container in the background
 ~~~
-docker-compose -f <fichero_yml> up  -d
+docker-compose -f <yml file name> up  -d
 ~~~
 ## Stop a container in the background
 ~~~
-docker-compose -f <fichero_yml> down
+docker-compose -f <yml file name> down
 ~~~
 #### Read logs of a container in the background
 ~~~
-docker-compose -f <fichero_yml> logs
+docker-compose -f <yml file name> logs
 ~~~
 
