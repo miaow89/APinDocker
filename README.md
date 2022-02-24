@@ -1,9 +1,10 @@
 # remove Comment
 > sudo vi /etc/sysctl.conf
-"net.ipv4.ip_forward=1"
-> sudo vi /etc/dhcpcd.conf
+- net.ipv4.ip_forward=1
+
 # add to the end of file
-> denyinterfaces wlan0
+> sudo vi /etc/dhcpcd.conf
+- denyinterfaces wlan0
 
 # execute Command
 > sudo curl -sSL https://get.docker.com | sh
