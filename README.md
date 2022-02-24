@@ -1,6 +1,6 @@
 # remove Comment
 > sudo vi /etc/sysctl.conf
-net.ipv4.ip_forward=1
+"net.ipv4.ip_forward=1"
 > sudo vi /etc/dhcpcd.conf
 # add to the end of file
 > denyinterfaces wlan0
