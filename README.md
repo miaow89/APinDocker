@@ -13,7 +13,7 @@ net.ipv4.ip_forward=1
 > sudo apt-get install -y python python-pip
 > 
 > sudo pip install docker-compose
-
+> 
 > sudo docker build . --tag autowlan
 > 
 > sudo docker run --name autowlan_open --cap-add=NET_ADMIN --network=host  autowlan
