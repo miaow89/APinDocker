@@ -3,7 +3,7 @@ services:
   autowlan:
     container_name: autowlan_wpa2
     build: .
-    image: autowlan
+    image: miaow89/autowlan_arm32v6
     cap_add: 
       - NET_ADMIN
     stop_grace_period: 2m
